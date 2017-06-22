@@ -1,7 +1,7 @@
 # html_img_comment
 Convert data from yaml file into html vertical scroll box, for images &amp; commets
 
-Configuration
+Configuration listing with vertical scrolling
 ```
 <div style="border: 1px solid black; height: 300px; overflow: scroll; overflow-y: scroll; overflow-x: hidden;">
 ...
@@ -17,3 +17,9 @@ Comment
 </div>
 ```
 
+Command box
+```
+<pre>
+<span style="font-weight: 400; color: #0000ff;">
+...
+</span></pre>
