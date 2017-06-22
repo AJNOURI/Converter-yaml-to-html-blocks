@@ -1,4 +1,4 @@
-# html_img_comment
+
 Convert data from yaml file into html vertical scroll box, for images &amp; commets
 
 Configuration listing with vertical scrolling
