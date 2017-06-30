@@ -1,0 +1,5 @@
+{% for dict in list %}
+<div style="border: 1px solid black; height: 300px; overflow: scroll; overflow-y: scroll; overflow-x: hidden;">
+{{ dict['text'] }}
+</div>
+{% endfor %}
