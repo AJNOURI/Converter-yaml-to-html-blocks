@@ -1,12 +1,13 @@
 <div style="border: 1px solid black; height: 300px; overflow: scroll; overflow-y: scroll; overflow-x: hidden;">
 
+{% for dict in list %}
 <p style="max-width: 100%;">
-  <a href="{{ LinkVar  }}">
-	<img style="max-width: 100%;" src="{{ ImageSrcVar }}" alt="{{ AltTextVar }}" />
+  <a href="{{ dict['link'] }}">
+	<img style="max-width: 100%;" src="{{ dict['src'] }}" alt="{{ dict['alttext'] }}" />
   </a>
 </p>
-{{ CommentVar }}
-
+{{ dict['comment'] }}
+{% endfor %}
 
 </div>
 

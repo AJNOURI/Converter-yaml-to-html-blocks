@@ -1,4 +1,7 @@
+{% for text in list %}
 <pre>
 <span style="font-weight: 400; color: #0000ff;">
-{{ CmdVar  }}
-</span></pre>
+{{ text }}
+</span>
+</pre>
+{% endfor %}

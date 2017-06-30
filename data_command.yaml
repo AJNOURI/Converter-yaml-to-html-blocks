@@ -1,0 +1,19 @@
+# YAML
+- |
+  #!/bin/bash
+   ### Install GNS3
+   sudo add-apt-repository ppa:gns3/ppa
+   sudo apt-get update
+   sudo apt-get install -y gns3-gui
+   sudo apt-get install -y gns3-server# Add Oficial docker repository GPG signature
+
+  ### Install Docker
+   # https://docs.docker.com/engine/installation/linux/ubuntu/
+   curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -# Add apt repository sources
+   sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+   sudo apt-get update
+
+  # Install Docker CE
+   sudo apt-get install -y docker-ce# Docker without sudo
+   sudo groupadd docker
+   sudo gpasswd -a $USER docker

@@ -1,0 +1,18 @@
+# YAML
+-
+   link: "link1"
+   src: "src1"
+   alttext: "alttext1"
+   comment: "comment1"
+
+-
+   link: "link2"
+   src: "src2"
+   alttext: "alttext2"
+   comment: "comment2"
+
+-
+   link: "link3"
+   src: "src3"
+   alttext: "alttext3"
+   comment: "comment3"
