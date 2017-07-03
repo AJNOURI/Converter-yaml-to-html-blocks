@@ -37,13 +37,13 @@ def main(docopt_args):
     else:
         if docopt_args['-i']:
             data = "data_image_scroll.yaml"
-            template = "templ_image_scroll.txt"
+            template = "templ_image_scroll.j2"
         elif docopt_args['-t']:
             data = "data_text_scroll.yaml"
-            template = "templ_text_scroll.txt"
+            template = "templ_text_scroll.j2"
         elif docopt_args['-c']:
             data = "data_command.yaml"
-            template = "templ_command.txt"
+            template = "templ_command.j2"
         else:
             help()
             exit(1)
